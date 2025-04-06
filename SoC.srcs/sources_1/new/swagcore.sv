@@ -23,6 +23,9 @@ import riscv_pkg::*;
 module swagcore(
     input logic clk,
     input logic reset,
+    output logic [31:0] inst_fetch_addr,
+    input logic [31:0] inst_fetch,
+    output logic mem_valid,
     output logic [31:0] mem_addr,
     output logic [31:0] mem_wdata,
     input  logic [31:0] mem_rdata,
@@ -39,8 +42,8 @@ module swagcore(
         else pc <= pc + 4; // Simple increment for now
 
     // Instruction Fetch
-    assign mem_addr = pc;
-    assign instr = mem_rdata;
+    assign inst_fetch_addr = pc;
+    assign instr = inst_fetch;
 
 
     // Register File
@@ -95,6 +98,11 @@ module swagcore(
     
 
     // Memory and Writeback (expand later)
+
+
+
+
+
 
     // writeback
     always_ff @(posedge clk) 

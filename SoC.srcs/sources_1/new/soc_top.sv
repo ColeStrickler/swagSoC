@@ -22,29 +22,38 @@
 
 module soc_top(
     input logic clk,
-    input logic rst,
+    input logic rst
     );
 
 
 
-
+    logic [31:0]cpu1_mem_addr;
+    logic [31:0]cpu1_mem_wdata;
+    logic [31:0]cpu1_mem_rdata;
+    logic cpu1_mem_we;
+    logic cpu1_mem_valid;
+    logic [31:0] cpu1_inst_fetch_addr;
+    logic [31:0] cpu1_inst_fetch;
     swagcore cpu1 (
         .clk(clk),
         .reset(rst),
-        .mem_addr(),
-        .mem_wdata(),
-        .mem_rdata(),
-        .mem_we()
+        .inst_fetch_addr(cpu1_inst_fetch_addr),
+        .inst_fetch(cpu1_inst_fetch),
+        .mem_valid(cpu1_mem_valid),
+        .mem_addr(cpu1_mem_addr),
+        .mem_wdata(cpu1_mem_wdata),
+        .mem_rdata(cpu1_mem_rdata),
+        .mem_we(cpu1_mem_we)
     );
 
 
     blk_mem_gen_0 bootloader_rom(
         .clka(clk),    // input wire clka
-        .ena(ena),      // input wire ena
-        .wea(wea),      // input wire [0 : 0] wea
-        .addra(addra),  // input wire [9 : 0] addra
-        .dina(dina),    // input wire [31 : 0] dina
-        .douta(douta)  // output wire [31 : 0] douta
+        .ena(1'b1),      // input wire ena
+        .wea(1'b0),      // input wire [0 : 0] wea
+        .addra(cpu1_inst_fetch_addr[9:0]/4),  // input wire [9 : 0] addra
+        .dina(32'b0),    // input wire [31 : 0] dina
+        .douta(cpu1_inst_fetch)  // output wire [31 : 0] douta
     );
 
 

@@ -1,0 +1,4 @@
+Running: xsim.dir/testbench_swagcore_behav/xsimk -simmode gui -wdb testbench_swagcore_behav.wdb -simrunnum 0 -socket 58873
+Design successfully loaded
+Design Loading Memory Usage: 180392 KB (Peak: 180448 KB)
+Design Loading CPU Usage: 1080 ms

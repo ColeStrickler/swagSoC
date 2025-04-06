@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/cole/Documents/SoC/SoC.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sim_1/new/fifo_test.sv,1737761147,systemVerilog,,,,fifo_test,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sim_1/new/oh_encoder_test.sv,1739232793,systemVerilog,,,,oh_encoder_test,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sim_1/new/oh_priority_encoder_test.sv,1739293323,systemVerilog,,,,oh_priority_encoder_test,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sim_1/new/testbench_swagcore.sv,1743880103,systemVerilog,,,,testbench_swagcore,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/fifo_ctrl.sv,1737650870,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/fifo_fallthrough.sv,,fifo_ctrl,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/fifo_fallthrough.sv,1737761209,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/regfile.sv,,fifo_fallthrough,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/oh_encoder.sv,1739232231,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/oh_encoder_test.sv,,oh_encoder,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/oh_priority_encoder.sv,1739294112,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/oh_priority_encoder_test.sv,,oh_priority_encoder,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/regfile.sv,1737760540,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/fifo_test.sv,,regfile,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/riscv.sv,1743880682,systemVerilog,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/testbench_swagcore.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,,$unit_riscv_sv_3171817394;riscv_pkg,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,1743881121,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv,,swagcore,,uvm,,,,,,
+,,,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,,swagcore_alu,,,,,,,,
+,,,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/testbench_swagcore.sv,,swagcore_decode,,,,,,,,

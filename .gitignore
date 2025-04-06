@@ -1,0 +1,43 @@
+# Vivado Generated Files
+*.xpr           # Vivado project file (optional: keep if you want it tracked)
+*.log           # Log files (e.g., xvlog.log, vivado.log)
+*.jou           # Journal files
+*.pb            # Protocol buffer files
+*.bit           # Bitstream files
+*.dcp           # Design checkpoint files
+*.rpt           # Report files
+*.wdb           # Waveform database files
+*.vcd           # Value Change Dump files (e.g., tb_top.vcd)
+/SoC.runs/      # Synthesis and implementation runs
+/SoC.sim/       # Simulation output
+/SoC.cache/     # Vivado cache
+/SoC.hw/        # Hardware configuration
+/SoC.ip_user_files/  # IP user files
+/SoC.srcs/sources_1/ip/  # IP generated files (e.g., blk_mem_gen_0.vhd or .v)
+
+# Python Virtual Environment
+venv/           # Virtual environment directory
+__pycache__/    # Python bytecode cache
+*.pyc           # Compiled Python files
+*.pyo           # Optimized Python files
+*.pyd           # Python dynamic modules
+
+# Generated Bootloader Files (Optional)
+# Uncomment these if you regenerate them frequently and don’t want them tracked
+# bootloader.coe
+# bootloader.mem
+
+# Editor and IDE Files
+.vscode/        # VSCode settings
+*.swp           # Vim swap files
+*.swo           # Vim swap files
+*.swn           # Vim swap files
+.idea/          # IntelliJ IDEA files
+
+# OS-Specific Files
+.DS_Store       # macOS Finder files
+Thumbs.db       # Windows thumbnail cache
+
+# Miscellaneous
+*.bak           # Backup files
+*.tmp           # Temporary files

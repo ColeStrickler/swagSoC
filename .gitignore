@@ -8,12 +8,12 @@
 *.rpt           # Report files
 *.wdb           # Waveform database files
 *.vcd           # Value Change Dump files (e.g., tb_top.vcd)
-/SoC.runs/      # Synthesis and implementation runs
-/SoC.sim/       # Simulation output
-/SoC.cache/     # Vivado cache
-/SoC.hw/        # Hardware configuration
-/SoC.ip_user_files/  # IP user files
-/SoC.srcs/sources_1/ip/  # IP generated files (e.g., blk_mem_gen_0.vhd or .v)
+SoC.runs/      # Synthesis and implementation runs
+SoC.sim/       # Simulation output
+SoC.cache/     # Vivado cache
+SoC.hw/        # Hardware configuration
+SoC.ip_user_files/  # IP user files
+SoC.srcs/sources_1/ip/  # IP generated files (e.g., blk_mem_gen_0.vhd or .v)
 
 # Python Virtual Environment
 venv/           # Virtual environment directory

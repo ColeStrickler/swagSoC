@@ -1,0 +1,75 @@
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_sim.dut.bootloader_rom.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module top_sim.dut.mm.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Time: 0 ns | rst: 1 | inst_fetch_addr: 00000000 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 20000 ns | rst: 0 | inst_fetch_addr: 00000000 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 50000 ns | rst: 0 | inst_fetch_addr: 00000004 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 150000 ns | rst: 0 | inst_fetch_addr: 00000008 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 150000 ns | rst: 0 | inst_fetch_addr: 00000008 | inst_fetch: 00500093 | mem_addr: 00000000 | mem_we: 0
+Time: 250000 ns | rst: 0 | inst_fetch_addr: 0000000c | inst_fetch: 00500093 | mem_addr: 00000000 | mem_we: 0
+Time: 250000 ns | rst: 0 | inst_fetch_addr: 0000000c | inst_fetch: 00300113 | mem_addr: 00000000 | mem_we: 0
+Time: 350000 ns | rst: 0 | inst_fetch_addr: 00000010 | inst_fetch: 00300113 | mem_addr: 00000000 | mem_we: 0
+Time: 350000 ns | rst: 0 | inst_fetch_addr: 00000010 | inst_fetch: 002081b3 | mem_addr: 00000000 | mem_we: 0
+Time: 450000 ns | rst: 0 | inst_fetch_addr: 00000014 | inst_fetch: 002081b3 | mem_addr: 00000005 | mem_we: 0
+Time: 450000 ns | rst: 0 | inst_fetch_addr: 00000014 | inst_fetch: 00001237 | mem_addr: 00000005 | mem_we: 0
+Time: 550000 ns | rst: 0 | inst_fetch_addr: 00000018 | inst_fetch: 00001237 | mem_addr: 00000003 | mem_we: 0
+Time: 550000 ns | rst: 0 | inst_fetch_addr: 00000018 | inst_fetch: 00322023 | mem_addr: 00000003 | mem_we: 0
+Time: 650000 ns | rst: 0 | inst_fetch_addr: 0000001c | inst_fetch: 00322023 | mem_addr: 00000008 | mem_we: 0
+Time: 650000 ns | rst: 0 | inst_fetch_addr: 0000001c | inst_fetch: 00022283 | mem_addr: 00000008 | mem_we: 0
+Time: 750000 ns | rst: 0 | inst_fetch_addr: 00000020 | inst_fetch: 00022283 | mem_addr: 00001000 | mem_we: 0
+Time: 750000 ns | rst: 0 | inst_fetch_addr: 00000020 | inst_fetch: 005181b3 | mem_addr: 00001000 | mem_we: 0
+Time: 850000 ns | rst: 0 | inst_fetch_addr: 00000024 | inst_fetch: 005181b3 | mem_addr: 00001000 | mem_we: 1
+Time: 850000 ns | rst: 0 | inst_fetch_addr: 00000024 | inst_fetch: 0000006f | mem_addr: 00001000 | mem_we: 1
+Time: 950000 ns | rst: 0 | inst_fetch_addr: 00000028 | inst_fetch: 0000006f | mem_addr: 00001000 | mem_we: 0
+Time: 950000 ns | rst: 0 | inst_fetch_addr: 00000028 | inst_fetch: 00000000 | mem_addr: 00001000 | mem_we: 0
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_sim.dut.bootloader_rom.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module top_sim.dut.mm.inst.native_mem_module.blk_mem_gen_v8_4_9_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Time: 0 ns | rst: 1 | inst_fetch_addr: 00000000 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 20000 ns | rst: 0 | inst_fetch_addr: 00000000 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 50000 ns | rst: 0 | inst_fetch_addr: 00000004 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 150000 ns | rst: 0 | inst_fetch_addr: 00000008 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 150000 ns | rst: 0 | inst_fetch_addr: 00000008 | inst_fetch: 00500093 | mem_addr: 00000000 | mem_we: 0
+Time: 250000 ns | rst: 0 | inst_fetch_addr: 0000000c | inst_fetch: 00500093 | mem_addr: 00000000 | mem_we: 0
+Time: 250000 ns | rst: 0 | inst_fetch_addr: 0000000c | inst_fetch: 00300113 | mem_addr: 00000000 | mem_we: 0
+Time: 350000 ns | rst: 0 | inst_fetch_addr: 00000010 | inst_fetch: 00300113 | mem_addr: 00000000 | mem_we: 0
+Time: 350000 ns | rst: 0 | inst_fetch_addr: 00000010 | inst_fetch: 002081b3 | mem_addr: 00000000 | mem_we: 0
+Time: 450000 ns | rst: 0 | inst_fetch_addr: 00000014 | inst_fetch: 002081b3 | mem_addr: 00000005 | mem_we: 0
+Time: 450000 ns | rst: 0 | inst_fetch_addr: 00000014 | inst_fetch: 00001237 | mem_addr: 00000005 | mem_we: 0
+Time: 550000 ns | rst: 0 | inst_fetch_addr: 00000018 | inst_fetch: 00001237 | mem_addr: 00000003 | mem_we: 0
+Time: 550000 ns | rst: 0 | inst_fetch_addr: 00000018 | inst_fetch: 00322023 | mem_addr: 00000003 | mem_we: 0
+Time: 650000 ns | rst: 0 | inst_fetch_addr: 0000001c | inst_fetch: 00322023 | mem_addr: 00000008 | mem_we: 0
+Time: 650000 ns | rst: 0 | inst_fetch_addr: 0000001c | inst_fetch: 00022283 | mem_addr: 00000008 | mem_we: 0
+Time: 750000 ns | rst: 0 | inst_fetch_addr: 00000020 | inst_fetch: 00022283 | mem_addr: 00001000 | mem_we: 0
+Time: 750000 ns | rst: 0 | inst_fetch_addr: 00000020 | inst_fetch: 005181b3 | mem_addr: 00001000 | mem_we: 0
+Time: 850000 ns | rst: 0 | inst_fetch_addr: 00000024 | inst_fetch: 005181b3 | mem_addr: 00001000 | mem_we: 1
+Time: 850000 ns | rst: 0 | inst_fetch_addr: 00000024 | inst_fetch: 0000006f | mem_addr: 00001000 | mem_we: 1
+Time: 950000 ns | rst: 0 | inst_fetch_addr: 00000028 | inst_fetch: 0000006f | mem_addr: 00001000 | mem_we: 0
+Time: 950000 ns | rst: 0 | inst_fetch_addr: 00000028 | inst_fetch: 00000000 | mem_addr: 00001000 | mem_we: 0
+Time: 1150000 ns | rst: 0 | inst_fetch_addr: 0000002c | inst_fetch: 00000000 | mem_addr: 00000010 | mem_we: 0
+Time: 1250000 ns | rst: 0 | inst_fetch_addr: 00000030 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1350000 ns | rst: 0 | inst_fetch_addr: 00000034 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1450000 ns | rst: 0 | inst_fetch_addr: 00000038 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1550000 ns | rst: 0 | inst_fetch_addr: 0000003c | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1650000 ns | rst: 0 | inst_fetch_addr: 00000040 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1750000 ns | rst: 0 | inst_fetch_addr: 00000044 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1850000 ns | rst: 0 | inst_fetch_addr: 00000048 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 1950000 ns | rst: 0 | inst_fetch_addr: 0000004c | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2050000 ns | rst: 0 | inst_fetch_addr: 00000050 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2150000 ns | rst: 0 | inst_fetch_addr: 00000054 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2250000 ns | rst: 0 | inst_fetch_addr: 00000058 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2350000 ns | rst: 0 | inst_fetch_addr: 0000005c | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2450000 ns | rst: 0 | inst_fetch_addr: 00000060 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2550000 ns | rst: 0 | inst_fetch_addr: 00000064 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2650000 ns | rst: 0 | inst_fetch_addr: 00000068 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2750000 ns | rst: 0 | inst_fetch_addr: 0000006c | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2850000 ns | rst: 0 | inst_fetch_addr: 00000070 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 2950000 ns | rst: 0 | inst_fetch_addr: 00000074 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 3050000 ns | rst: 0 | inst_fetch_addr: 00000078 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 3150000 ns | rst: 0 | inst_fetch_addr: 0000007c | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 3250000 ns | rst: 0 | inst_fetch_addr: 00000080 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 3350000 ns | rst: 0 | inst_fetch_addr: 00000084 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0
+Time: 3450000 ns | rst: 0 | inst_fetch_addr: 00000088 | inst_fetch: 00000000 | mem_addr: 00000000 | mem_we: 0

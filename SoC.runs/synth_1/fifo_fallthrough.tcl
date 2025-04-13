@@ -62,6 +62,7 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
+set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir /home/cole/Documents/SoC/SoC.cache/wt [current_project]
 set_property parent.project_path /home/cole/Documents/SoC/SoC.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
@@ -71,6 +72,7 @@ set_property ip_output_repo /home/cole/Documents/SoC/SoC.cache/ip [current_proje
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files /home/cole/Documents/SoC/resources/bootloader.coe
 read_verilog -library xil_defaultlib -sv {
   /home/cole/Documents/SoC/SoC.srcs/sources_1/new/fifo_ctrl.sv
   /home/cole/Documents/SoC/SoC.srcs/sources_1/new/regfile.sv
@@ -86,6 +88,8 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental /home/cole/Documents/SoC/SoC.srcs/utils_1/imports/synth_1/fifo_fallthrough.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

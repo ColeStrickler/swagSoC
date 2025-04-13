@@ -1,10 +1,12 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../SoC.ip_user_files/ip/main_memory/sim/main_memory.v" \
 "../../../../SoC.ip_user_files/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
 
 sv xil_defaultlib  \
 "../../../../SoC.srcs/sources_1/new/riscv.sv" \
 "../../../../SoC.srcs/sources_1/new/soc_top.sv" \
+"../../../../SoC.srcs/sources_1/new/swag_cpu_ctrl.sv" \
 "../../../../SoC.srcs/sources_1/new/swagcore.sv" \
 "../../../../SoC.srcs/sources_1/new/swagcore_alu.sv" \
 "../../../../SoC.srcs/sources_1/new/swagcore_decode.sv" \

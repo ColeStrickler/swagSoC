@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr  7 14:09:30 2025
+# Process ID         : 301496
+# Current directory  : /home/cole/Documents/SoC/SoC.runs/main_memory_synth_1
+# Command line       : vivado -log main_memory.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_memory.tcl
+# Log file           : /home/cole/Documents/SoC/SoC.runs/main_memory_synth_1/main_memory.vds
+# Journal file       : /home/cole/Documents/SoC/SoC.runs/main_memory_synth_1/vivado.jou
+# Running On         : BATTLESTATION
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.4 LTS
+# Processor Detail   : AMD Ryzen 9 3900X 12-Core Processor
+# CPU Frequency      : 2105.752 MHz
+# CPU Physical cores : 12
+# CPU Logical cores  : 24
+# Host memory        : 33568 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35715 MB
+# Available Virtual  : 27227 MB
+#-----------------------------------------------------------
+source main_memory.tcl -notrace

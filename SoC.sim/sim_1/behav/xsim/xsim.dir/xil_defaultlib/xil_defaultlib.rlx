@@ -2,11 +2,13 @@
 2020.2
 Nov  8 2024
 22:36:55
-/home/cole/Documents/SoC/SoC.ip_user_files/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1743952050,verilog,,,,blk_mem_gen_0,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.ip_user_files/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1744058626,verilog,,,,blk_mem_gen_0,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.ip_user_files/ip/main_memory/sim/main_memory.v,1744052966,verilog,,/home/cole/Documents/SoC/SoC.ip_user_files/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,main_memory,,uvm,,,,,,
 /home/cole/Documents/SoC/SoC.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
-/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv,1743953542,systemVerilog,,,,top_sim,,uvm,,,,,,
-/home/cole/Documents/SoC/SoC.srcs/sources_1/new/riscv.sv,1743880682,systemVerilog,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv,,$unit_riscv_sv_691744193;riscv_pkg,,uvm,,,,,,
-/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv,1743953213,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,,soc_top,,uvm,,,,,,
-/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,1743951317,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv,,swagcore,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv,1744491342,systemVerilog,,,,top_sim,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/riscv.sv,1743880682,systemVerilog,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swag_cpu_ctrl.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv;/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv,,$unit_riscv_sv_2206519677;riscv_pkg,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/soc_top.sv,1744504730,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swag_cpu_ctrl.sv,,soc_top,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swag_cpu_ctrl.sv,1744505757,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,,swag_cpu_ctrl,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore.sv,1744507302,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv,,swagcore,,uvm,,,,,,
 /home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_alu.sv,1743880522,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,,swagcore_alu,,uvm,,,,,,
-/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,1743880520,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv,,swagcore_decode,,uvm,,,,,,
+/home/cole/Documents/SoC/SoC.srcs/sources_1/new/swagcore_decode.sv,1744063654,systemVerilog,,/home/cole/Documents/SoC/SoC.srcs/sim_1/new/top_sim.sv,,swagcore_decode,,uvm,,,,,,

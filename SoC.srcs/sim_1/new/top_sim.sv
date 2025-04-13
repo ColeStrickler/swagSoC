@@ -21,7 +21,7 @@ module top_sim (
     // Clock generation: 10ns period (100MHz)
     initial begin
         clk = 0;
-        forever #5 clk = ~clk; // Toggle every 5ns
+        forever #50 clk = ~clk; // Toggle every 5ns
     end
 
     // Reset and test sequence
@@ -38,7 +38,7 @@ module top_sim (
         rst = 0; // Deassert reset
 
         // Run for 100ns (10 cycles at 10ns each)
-        #50
+        #4000;
 
         // Display CPU register values (assuming swagcore exposes regs)
         $display("Time: %0t ns", $time);
@@ -56,5 +56,12 @@ module top_sim (
                  $time, rst, dut.cpu1_inst_fetch_addr, dut.cpu1_inst_fetch, 
                  dut.cpu1_mem_addr, dut.cpu1_mem_we);
     end
+
+    initial begin
+    #10000; // Timeout after 1 us
+    $display("Timeout at %0t ns", $time);
+    $stop; // Pause for debug
+    $finish;
+end
 
 endmodule

@@ -53,7 +53,7 @@ module swagcore_decode(
         OP_BRANCH: '{B_TYPE, ALU_SUB, 0, 0, 0, 1, 0}, // OP_BRANCH (e.g., BEQ)
 
         // U-type
-        OP_LUI: '{U_TYPE, ALU_NOP, 0, 0, 1, 0, 0}, // OP_LUI
+        OP_LUI: '{U_TYPE, ALU_ADD, 0, 0, 1, 0, 0}, // OP_LUI
         OP_AUIPC: '{U_TYPE, ALU_ADD, 0, 0, 1, 0, 0}, // OP_AUIPC
 
         // J-type
